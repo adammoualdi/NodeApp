@@ -1,14 +1,14 @@
 <template>
   <div id="app">
      <!-- APP TEST -->
-    <img src="./assets/logo.png">
+    <!-- <img src="./assets/logo.png"> -->
     <router-view/>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'NodeApp'
+  name: 'posts'
 }
 </script>
 
