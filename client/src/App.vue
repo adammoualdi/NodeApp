@@ -8,7 +8,7 @@
 
 <script>
 export default {
-  name: 'posts'
+  name: 'nodeApp'
 }
 </script>
 

@@ -3,8 +3,11 @@ const path = require('path')
 const utils = require('./utils')
 const config = require('../config')
 const vueLoaderConfig = require('./vue-loader.conf')
+// var webpack = require('webpack')
+
 
 function resolve (dir) {
+  // styl: path.resolve(__dirname, '../src/assets/css')
   return path.join(__dirname, '..', dir)
 }
 
@@ -90,3 +93,13 @@ module.exports = {
     child_process: 'empty'
   }
 }
+
+// plugins: [
+//   new webpack.LoaderOptionsPlugin({
+//     options: {
+//       stylus: {
+//         import: [path.resolve(__dirname, '../src/assets/stylus/style.styl')]
+//       }
+//     }
+//   })
+// ]
